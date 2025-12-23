@@ -47,6 +47,10 @@ if 'visit' in df.columns:
     print("\nVisit 분포:")
     print(df['visit'].value_counts())
 
+# 추가적으로 분석
+print(df.shape)
+
+
 # 종료 시간 기록 및 출력
 end_time = time.time()
 elapsed_time = end_time - start_time
